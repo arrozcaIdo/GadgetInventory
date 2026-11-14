@@ -5,6 +5,7 @@ namespace GadgetInventory.Models
     public class Gadget
     {
         public int Id{ get; set;}
+        
         [Required(ErrorMessage = "Brand name is required")]
         public string Brand { get; set; }
 

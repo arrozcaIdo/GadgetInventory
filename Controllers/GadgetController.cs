@@ -34,7 +34,6 @@ namespace GadgetInventory.Controllers
     
             newGadget.Id = _gadgets.Count + 1;
             _gadgets.Add(newGadget);
-
             return RedirectToAction("Index");
         }
     }
